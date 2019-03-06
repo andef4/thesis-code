@@ -1,3 +1,4 @@
+# Data
 We use the sample dataset from kaggle which contains a random subset of 5606 images from the full dataset (112120 images).
 
 The dataset is CC0 licensed (public domain) and available on kaggle:
