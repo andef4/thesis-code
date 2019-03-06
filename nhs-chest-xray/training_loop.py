@@ -3,6 +3,8 @@ Training loop from https://github.com/andef4/deeplearning (MIT licensed), origin
 https://pytorch.org/tutorials/beginner/finetuning_torchvision_models_tutorial.html#model-training-and-validation-code, under BSD license
 
 """
+import os
+import torch
 
 
 def train_model(name, model, dataloaders, criterion, optimizer, device, num_epochs=25):
