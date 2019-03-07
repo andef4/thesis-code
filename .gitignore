@@ -105,5 +105,6 @@ venv.bak/
 
 # project specific excludes
 data/
+sample_data/
 .vscode/
 *.pth
