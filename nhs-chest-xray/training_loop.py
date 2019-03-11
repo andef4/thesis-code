@@ -5,6 +5,7 @@ https://pytorch.org/tutorials/beginner/finetuning_torchvision_models_tutorial.ht
 """
 import os
 import torch
+from datetime import datetime
 
 
 def train_model(name, model, dataloaders, criterion, optimizer, device, num_epochs=25):
@@ -15,6 +16,8 @@ def train_model(name, model, dataloaders, criterion, optimizer, device, num_epoc
     f = open(f'results/{name}.txt', 'w', buffering=1)
 
     for epoch in range(num_epochs):
+        epoch_start = datetime.now()
+
         train_loss = None
         train_accuracy = None
 
@@ -66,12 +69,13 @@ def train_model(name, model, dataloaders, criterion, optimizer, device, num_epoc
                 train_loss = epoch_loss
                 train_accuracy = epoch_acc
             else:
+                time = datetime.now() - epoch_start
                 stats = f'Epoch: {epoch}, TL: {train_loss:.5f}, VL: {epoch_loss:.5f}'
-                stats += f', TA: {train_accuracy:.5f}, VA: {epoch_acc:.5f}'
+                stats += f', TA: {train_accuracy:.5f}, VA: {epoch_acc:.5f}, Time: {time}'
                 print(stats)
                 f.write(f'{stats}\n')
 
             # deep copy the model
-            if phase == 'val' and epoch_acc > best_acc:
+            if phase == 'val': # and epoch_acc > best_acc:
                 best_acc = epoch_acc
-                torch.save(model.state_dict(), f'{name}_{best_acc:.5f}.pth')
+                torch.save(model.state_dict(), f'{name}_{epoch}_{best_acc:.5f}.pth')
