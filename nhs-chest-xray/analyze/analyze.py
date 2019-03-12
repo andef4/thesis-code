@@ -11,7 +11,7 @@ from collections import defaultdict
 
 
 CSV_FILE = os.path.join('..', 'data', 'Data_Entry_2017.csv')
-BATCH_SIZE = 10
+BATCH_SIZE = 1
 
 
 class XRayDataset(Dataset):
