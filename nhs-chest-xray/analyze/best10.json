@@ -1,0 +1,634 @@
+{
+  "Hernia": [
+    {
+      "image": "00000003_000.png",
+      "correct": true,
+      "loss": 1.7548637390136719
+    },
+    {
+      "image": "00020915_000.png",
+      "correct": true,
+      "loss": 1.7551509141921997
+    },
+    {
+      "image": "00021463_010.png",
+      "correct": true,
+      "loss": 1.7577297687530518
+    },
+    {
+      "image": "00000284_002.png",
+      "correct": true,
+      "loss": 1.825904130935669
+    },
+    {
+      "image": "00020915_001.png",
+      "correct": true,
+      "loss": 1.848543405532837
+    },
+    {
+      "image": "00020915_003.png",
+      "correct": true,
+      "loss": 2.0046420097351074
+    }
+  ],
+  "Pleural_Thickening": [
+    {
+      "image": "00015171_016.png",
+      "correct": true,
+      "loss": 1.755250096321106
+    },
+    {
+      "image": "00014022_072.png",
+      "correct": true,
+      "loss": 1.7552539110183716
+    },
+    {
+      "image": "00005089_041.png",
+      "correct": true,
+      "loss": 1.7662155628204346
+    },
+    {
+      "image": "00005089_027.png",
+      "correct": true,
+      "loss": 1.780029296875
+    },
+    {
+      "image": "00021374_030.png",
+      "correct": true,
+      "loss": 1.791969895362854
+    },
+    {
+      "image": "00008295_035.png",
+      "correct": true,
+      "loss": 1.7974295616149902
+    },
+    {
+      "image": "00004858_064.png",
+      "correct": true,
+      "loss": 1.821373462677002
+    },
+    {
+      "image": "00005089_000.png",
+      "correct": true,
+      "loss": 1.8227379322052002
+    },
+    {
+      "image": "00009396_003.png",
+      "correct": true,
+      "loss": 1.822782039642334
+    },
+    {
+      "image": "00018860_031.png",
+      "correct": true,
+      "loss": 1.854285478591919
+    }
+  ],
+  "Infiltration": [
+    {
+      "image": "00027782_000.png",
+      "correct": true,
+      "loss": 1.7549554109573364
+    },
+    {
+      "image": "00018387_000.png",
+      "correct": true,
+      "loss": 1.755102515220642
+    },
+    {
+      "image": "00013310_026.png",
+      "correct": true,
+      "loss": 1.7551079988479614
+    },
+    {
+      "image": "00015646_052.png",
+      "correct": true,
+      "loss": 1.7552651166915894
+    },
+    {
+      "image": "00020482_004.png",
+      "correct": true,
+      "loss": 1.755477786064148
+    },
+    {
+      "image": "00013968_012.png",
+      "correct": true,
+      "loss": 1.7555124759674072
+    },
+    {
+      "image": "00018319_005.png",
+      "correct": true,
+      "loss": 1.755789875984192
+    },
+    {
+      "image": "00013310_024.png",
+      "correct": true,
+      "loss": 1.7558404207229614
+    },
+    {
+      "image": "00004526_001.png",
+      "correct": true,
+      "loss": 1.755847454071045
+    },
+    {
+      "image": "00019018_000.png",
+      "correct": true,
+      "loss": 1.7558962106704712
+    }
+  ],
+  "Pneumothorax": [
+    {
+      "image": "00030162_008.png",
+      "correct": true,
+      "loss": 1.755059003829956
+    },
+    {
+      "image": "00018366_017.png",
+      "correct": true,
+      "loss": 1.7551085948944092
+    },
+    {
+      "image": "00016587_005.png",
+      "correct": true,
+      "loss": 1.7552059888839722
+    },
+    {
+      "image": "00022707_013.png",
+      "correct": true,
+      "loss": 1.7553844451904297
+    },
+    {
+      "image": "00027697_004.png",
+      "correct": true,
+      "loss": 1.7555291652679443
+    },
+    {
+      "image": "00008566_007.png",
+      "correct": true,
+      "loss": 1.755561113357544
+    },
+    {
+      "image": "00025787_053.png",
+      "correct": true,
+      "loss": 1.755593180656433
+    },
+    {
+      "image": "00013209_001.png",
+      "correct": true,
+      "loss": 1.7563529014587402
+    },
+    {
+      "image": "00026451_005.png",
+      "correct": true,
+      "loss": 1.7572016716003418
+    },
+    {
+      "image": "00011460_008.png",
+      "correct": true,
+      "loss": 1.7579623460769653
+    }
+  ],
+  "Effusion": [
+    {
+      "image": "00026098_014.png",
+      "correct": true,
+      "loss": 1.7548246383666992
+    },
+    {
+      "image": "00011579_047.png",
+      "correct": true,
+      "loss": 1.7548251152038574
+    },
+    {
+      "image": "00025252_067.png",
+      "correct": true,
+      "loss": 1.7548251152038574
+    },
+    {
+      "image": "00028844_028.png",
+      "correct": true,
+      "loss": 1.7548255920410156
+    },
+    {
+      "image": "00017606_042.png",
+      "correct": true,
+      "loss": 1.7548280954360962
+    },
+    {
+      "image": "00021222_004.png",
+      "correct": true,
+      "loss": 1.7548284530639648
+    },
+    {
+      "image": "00022369_012.png",
+      "correct": true,
+      "loss": 1.7548284530639648
+    },
+    {
+      "image": "00022899_009.png",
+      "correct": true,
+      "loss": 1.7548285722732544
+    },
+    {
+      "image": "00026346_018.png",
+      "correct": true,
+      "loss": 1.7548292875289917
+    },
+    {
+      "image": "00022416_047.png",
+      "correct": true,
+      "loss": 1.7548309564590454
+    }
+  ],
+  "Mass": [
+    {
+      "image": "00018101_006.png",
+      "correct": true,
+      "loss": 1.7548511028289795
+    },
+    {
+      "image": "00016064_000.png",
+      "correct": true,
+      "loss": 1.7548562288284302
+    },
+    {
+      "image": "00013911_023.png",
+      "correct": true,
+      "loss": 1.754900574684143
+    },
+    {
+      "image": "00027937_007.png",
+      "correct": true,
+      "loss": 1.754919409751892
+    },
+    {
+      "image": "00016064_001.png",
+      "correct": true,
+      "loss": 1.7550315856933594
+    },
+    {
+      "image": "00008566_000.png",
+      "correct": true,
+      "loss": 1.7550345659255981
+    },
+    {
+      "image": "00016064_013.png",
+      "correct": true,
+      "loss": 1.7550400495529175
+    },
+    {
+      "image": "00027556_001.png",
+      "correct": true,
+      "loss": 1.7551157474517822
+    },
+    {
+      "image": "00015310_004.png",
+      "correct": true,
+      "loss": 1.755123257637024
+    },
+    {
+      "image": "00022192_003.png",
+      "correct": true,
+      "loss": 1.7551339864730835
+    }
+  ],
+  "Emphysema": [
+    {
+      "image": "00026412_056.png",
+      "correct": true,
+      "loss": 1.754948616027832
+    },
+    {
+      "image": "00015530_085.png",
+      "correct": true,
+      "loss": 1.755476713180542
+    },
+    {
+      "image": "00010815_011.png",
+      "correct": true,
+      "loss": 1.7589550018310547
+    },
+    {
+      "image": "00029259_017.png",
+      "correct": true,
+      "loss": 1.7638142108917236
+    },
+    {
+      "image": "00027478_004.png",
+      "correct": true,
+      "loss": 1.7650389671325684
+    },
+    {
+      "image": "00018865_015.png",
+      "correct": true,
+      "loss": 1.767306923866272
+    },
+    {
+      "image": "00018865_020.png",
+      "correct": true,
+      "loss": 1.8027464151382446
+    },
+    {
+      "image": "00005681_019.png",
+      "correct": true,
+      "loss": 1.803942322731018
+    },
+    {
+      "image": "00017504_039.png",
+      "correct": true,
+      "loss": 1.836395025253296
+    },
+    {
+      "image": "00019437_002.png",
+      "correct": true,
+      "loss": 1.8428566455841064
+    }
+  ],
+  "Cardiomegaly": [
+    {
+      "image": "00019426_000.png",
+      "correct": true,
+      "loss": 1.754834771156311
+    },
+    {
+      "image": "00000845_000.png",
+      "correct": true,
+      "loss": 1.754841923713684
+    },
+    {
+      "image": "00004533_019.png",
+      "correct": true,
+      "loss": 1.7548502683639526
+    },
+    {
+      "image": "00004534_003.png",
+      "correct": true,
+      "loss": 1.7548545598983765
+    },
+    {
+      "image": "00004533_018.png",
+      "correct": true,
+      "loss": 1.7548573017120361
+    },
+    {
+      "image": "00002435_008.png",
+      "correct": true,
+      "loss": 1.7548655271530151
+    },
+    {
+      "image": "00005532_001.png",
+      "correct": true,
+      "loss": 1.7548717260360718
+    },
+    {
+      "image": "00002435_001.png",
+      "correct": true,
+      "loss": 1.7548784017562866
+    },
+    {
+      "image": "00020986_001.png",
+      "correct": true,
+      "loss": 1.7548871040344238
+    },
+    {
+      "image": "00015425_012.png",
+      "correct": true,
+      "loss": 1.7548877000808716
+    }
+  ],
+  "Consolidation": [
+    {
+      "image": "00010805_004.png",
+      "correct": true,
+      "loss": 1.7671796083450317
+    },
+    {
+      "image": "00017710_007.png",
+      "correct": true,
+      "loss": 1.782184362411499
+    },
+    {
+      "image": "00017504_046.png",
+      "correct": true,
+      "loss": 1.7878497838974
+    },
+    {
+      "image": "00001946_001.png",
+      "correct": true,
+      "loss": 1.7984062433242798
+    },
+    {
+      "image": "00017504_048.png",
+      "correct": true,
+      "loss": 1.819209098815918
+    },
+    {
+      "image": "00016786_004.png",
+      "correct": true,
+      "loss": 1.8228496313095093
+    },
+    {
+      "image": "00010012_014.png",
+      "correct": true,
+      "loss": 1.8243391513824463
+    },
+    {
+      "image": "00010805_022.png",
+      "correct": true,
+      "loss": 1.877399206161499
+    },
+    {
+      "image": "00016522_017.png",
+      "correct": true,
+      "loss": 1.9011166095733643
+    },
+    {
+      "image": "00006271_073.png",
+      "correct": true,
+      "loss": 1.909362554550171
+    }
+  ],
+  "Edema": [
+    {
+      "image": "00019157_005.png",
+      "correct": true,
+      "loss": 1.7556523084640503
+    },
+    {
+      "image": "00007018_032.png",
+      "correct": true,
+      "loss": 1.7571065425872803
+    },
+    {
+      "image": "00015100_006.png",
+      "correct": true,
+      "loss": 1.775834321975708
+    },
+    {
+      "image": "00019208_004.png",
+      "correct": true,
+      "loss": 1.8178751468658447
+    },
+    {
+      "image": "00014839_026.png",
+      "correct": true,
+      "loss": 1.8311634063720703
+    },
+    {
+      "image": "00015264_005.png",
+      "correct": true,
+      "loss": 1.8472826480865479
+    },
+    {
+      "image": "00011973_002.png",
+      "correct": true,
+      "loss": 1.8589502573013306
+    },
+    {
+      "image": "00014792_009.png",
+      "correct": true,
+      "loss": 1.867021083831787
+    },
+    {
+      "image": "00027726_008.png",
+      "correct": true,
+      "loss": 1.8700873851776123
+    },
+    {
+      "image": "00007018_038.png",
+      "correct": true,
+      "loss": 1.8726733922958374
+    }
+  ],
+  "Atelectasis": [
+    {
+      "image": "00026478_005.png",
+      "correct": true,
+      "loss": 1.7548551559448242
+    },
+    {
+      "image": "00030408_000.png",
+      "correct": true,
+      "loss": 1.7548695802688599
+    },
+    {
+      "image": "00019750_007.png",
+      "correct": true,
+      "loss": 1.7548764944076538
+    },
+    {
+      "image": "00014839_032.png",
+      "correct": true,
+      "loss": 1.7549257278442383
+    },
+    {
+      "image": "00021818_013.png",
+      "correct": true,
+      "loss": 1.7550179958343506
+    },
+    {
+      "image": "00015262_007.png",
+      "correct": true,
+      "loss": 1.7550851106643677
+    },
+    {
+      "image": "00020408_045.png",
+      "correct": true,
+      "loss": 1.755662202835083
+    },
+    {
+      "image": "00026920_000.png",
+      "correct": true,
+      "loss": 1.7557650804519653
+    },
+    {
+      "image": "00029817_003.png",
+      "correct": true,
+      "loss": 1.7559568881988525
+    },
+    {
+      "image": "00027474_003.png",
+      "correct": true,
+      "loss": 1.7560415267944336
+    }
+  ],
+  "Fibrosis": [
+    {
+      "image": "00014969_000.png",
+      "correct": true,
+      "loss": 1.766958475112915
+    },
+    {
+      "image": "00000733_002.png",
+      "correct": true,
+      "loss": 1.8524479866027832
+    },
+    {
+      "image": "00014870_002.png",
+      "correct": true,
+      "loss": 1.9425532817840576
+    },
+    {
+      "image": "00022280_001.png",
+      "correct": true,
+      "loss": 1.9583704471588135
+    },
+    {
+      "image": "00014022_050.png",
+      "correct": true,
+      "loss": 2.2244873046875
+    }
+  ],
+  "Pneumonia": [],
+  "Nodule": [
+    {
+      "image": "00010775_005.png",
+      "correct": true,
+      "loss": 1.7554757595062256
+    },
+    {
+      "image": "00025707_018.png",
+      "correct": true,
+      "loss": 1.7577635049819946
+    },
+    {
+      "image": "00019013_001.png",
+      "correct": true,
+      "loss": 1.761207103729248
+    },
+    {
+      "image": "00018366_000.png",
+      "correct": true,
+      "loss": 1.7634716033935547
+    },
+    {
+      "image": "00016587_049.png",
+      "correct": true,
+      "loss": 1.7661359310150146
+    },
+    {
+      "image": "00010959_006.png",
+      "correct": true,
+      "loss": 1.7751210927963257
+    },
+    {
+      "image": "00020393_001.png",
+      "correct": true,
+      "loss": 1.7753288745880127
+    },
+    {
+      "image": "00025707_017.png",
+      "correct": true,
+      "loss": 1.7753994464874268
+    },
+    {
+      "image": "00006713_014.png",
+      "correct": true,
+      "loss": 1.778860330581665
+    },
+    {
+      "image": "00018249_000.png",
+      "correct": true,
+      "loss": 1.7817440032958984
+    }
+  ]
+}

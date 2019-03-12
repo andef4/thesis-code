@@ -55,7 +55,7 @@ class XRayDataset(Dataset):
         filename, label = self.files[index]
         image = Image.open(os.path.join('..', 'data', 'processed_images', filename))
         image = self.transform(image)
-        return image, torch.tensor(self.classes.index(label), dtype=torch.long)
+        return image, torch.tensor(self.classes.index(label), dtype=torch.long), filename
 
     def __len__(self):
         return len(self.files)
