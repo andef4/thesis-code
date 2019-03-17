@@ -53,15 +53,30 @@ class XRayDataset(Dataset):
 
     def __getitem__(self, index):
         filename, label = self.files[index]
-        image = Image.open(os.path.join('..', 'data', 'processed_images', filename))
-        image = self.transform(image)
-        return image, torch.tensor(self.classes.index(label), dtype=torch.long), filename
+        _, tensor = load_image_tensor(os.path.join('..', 'data', 'processed_images', filename))
+        return tensor, torch.tensor(self.classes.index(label), dtype=torch.long), filename
 
     def __len__(self):
         return len(self.files)
 
+def image_transforms():
+    return transforms.Compose([
+        transforms.ToTensor(),
+        transforms.Normalize(mean=[0.485, 0.456, 0.406],
+                             std=[0.229, 0.224, 0.225]),
+    ])
+
+def load_image_tensor(path, device=None, unsqueeze=False):
+    image = Image.open(path)
+    tensor = image_transforms()(image)
+    if unsqueeze:
+        tensor = torch.unsqueeze(tensor, 0)
+    if device:
+        tensor = tensor.to(device)
+    return image, tensor
+
 def load_model(device):
-    dataset = XRayDataset(transform=transforms.ToTensor(), validation=True)
+    dataset = XRayDataset(transform=image_transforms(), validation=True)
     loader = DataLoader(dataset, batch_size=BATCH_SIZE)
 
     num_classes = len(dataset.classes)

@@ -1,634 +1,679 @@
 {
   "Hernia": [
     {
-      "image": "00000003_000.png",
-      "correct": true,
-      "loss": 1.7548637390136719
-    },
-    {
       "image": "00020915_000.png",
       "correct": true,
-      "loss": 1.7551509141921997
-    },
-    {
-      "image": "00021463_010.png",
-      "correct": true,
-      "loss": 1.7577297687530518
-    },
-    {
-      "image": "00000284_002.png",
-      "correct": true,
-      "loss": 1.825904130935669
+      "loss": 1.7548245191574097
     },
     {
       "image": "00020915_001.png",
       "correct": true,
-      "loss": 1.848543405532837
+      "loss": 1.7548245191574097
     },
     {
-      "image": "00020915_003.png",
+      "image": "00020915_002.png",
       "correct": true,
-      "loss": 2.0046420097351074
-    }
-  ],
-  "Pleural_Thickening": [
-    {
-      "image": "00015171_016.png",
-      "correct": true,
-      "loss": 1.755250096321106
+      "loss": 1.7548245191574097
     },
     {
-      "image": "00014022_072.png",
-      "correct": true,
-      "loss": 1.7552539110183716
-    },
-    {
-      "image": "00005089_041.png",
-      "correct": true,
-      "loss": 1.7662155628204346
-    },
-    {
-      "image": "00005089_027.png",
-      "correct": true,
-      "loss": 1.780029296875
-    },
-    {
-      "image": "00021374_030.png",
-      "correct": true,
-      "loss": 1.791969895362854
-    },
-    {
-      "image": "00008295_035.png",
-      "correct": true,
-      "loss": 1.7974295616149902
-    },
-    {
-      "image": "00004858_064.png",
-      "correct": true,
-      "loss": 1.821373462677002
-    },
-    {
-      "image": "00005089_000.png",
-      "correct": true,
-      "loss": 1.8227379322052002
-    },
-    {
-      "image": "00009396_003.png",
-      "correct": true,
-      "loss": 1.822782039642334
-    },
-    {
-      "image": "00018860_031.png",
-      "correct": true,
-      "loss": 1.854285478591919
-    }
-  ],
-  "Infiltration": [
-    {
-      "image": "00027782_000.png",
-      "correct": true,
-      "loss": 1.7549554109573364
-    },
-    {
-      "image": "00018387_000.png",
-      "correct": true,
-      "loss": 1.755102515220642
-    },
-    {
-      "image": "00013310_026.png",
-      "correct": true,
-      "loss": 1.7551079988479614
-    },
-    {
-      "image": "00015646_052.png",
-      "correct": true,
-      "loss": 1.7552651166915894
-    },
-    {
-      "image": "00020482_004.png",
-      "correct": true,
-      "loss": 1.755477786064148
-    },
-    {
-      "image": "00013968_012.png",
-      "correct": true,
-      "loss": 1.7555124759674072
-    },
-    {
-      "image": "00018319_005.png",
-      "correct": true,
-      "loss": 1.755789875984192
-    },
-    {
-      "image": "00013310_024.png",
-      "correct": true,
-      "loss": 1.7558404207229614
-    },
-    {
-      "image": "00004526_001.png",
-      "correct": true,
-      "loss": 1.755847454071045
-    },
-    {
-      "image": "00019018_000.png",
-      "correct": true,
-      "loss": 1.7558962106704712
-    }
-  ],
-  "Pneumothorax": [
-    {
-      "image": "00030162_008.png",
-      "correct": true,
-      "loss": 1.755059003829956
-    },
-    {
-      "image": "00018366_017.png",
-      "correct": true,
-      "loss": 1.7551085948944092
-    },
-    {
-      "image": "00016587_005.png",
-      "correct": true,
-      "loss": 1.7552059888839722
-    },
-    {
-      "image": "00022707_013.png",
-      "correct": true,
-      "loss": 1.7553844451904297
-    },
-    {
-      "image": "00027697_004.png",
-      "correct": true,
-      "loss": 1.7555291652679443
-    },
-    {
-      "image": "00008566_007.png",
-      "correct": true,
-      "loss": 1.755561113357544
-    },
-    {
-      "image": "00025787_053.png",
-      "correct": true,
-      "loss": 1.755593180656433
-    },
-    {
-      "image": "00013209_001.png",
-      "correct": true,
-      "loss": 1.7563529014587402
-    },
-    {
-      "image": "00026451_005.png",
-      "correct": true,
-      "loss": 1.7572016716003418
-    },
-    {
-      "image": "00011460_008.png",
-      "correct": true,
-      "loss": 1.7579623460769653
-    }
-  ],
-  "Effusion": [
-    {
-      "image": "00026098_014.png",
+      "image": "00000003_007.png",
       "correct": true,
       "loss": 1.7548246383666992
     },
     {
-      "image": "00011579_047.png",
+      "image": "00000003_000.png",
+      "correct": true,
+      "loss": 1.7548247575759888
+    },
+    {
+      "image": "00020915_003.png",
+      "correct": true,
+      "loss": 1.7548247575759888
+    },
+    {
+      "image": "00021463_010.png",
+      "correct": true,
+      "loss": 1.7548247575759888
+    },
+    {
+      "image": "00000003_005.png",
+      "correct": true,
+      "loss": 1.754825472831726
+    },
+    {
+      "image": "00000284_002.png",
+      "correct": true,
+      "loss": 1.7548290491104126
+    },
+    {
+      "image": "00021463_001.png",
+      "correct": true,
+      "loss": 1.7548298835754395
+    }
+  ],
+  "Pleural_Thickening": [
+    {
+      "image": "00008295_035.png",
       "correct": true,
       "loss": 1.7548251152038574
     },
     {
-      "image": "00025252_067.png",
+      "image": "00016094_022.png",
       "correct": true,
-      "loss": 1.7548251152038574
+      "loss": 1.7548266649246216
     },
     {
-      "image": "00028844_028.png",
+      "image": "00023176_016.png",
       "correct": true,
-      "loss": 1.7548255920410156
+      "loss": 1.7548305988311768
     },
     {
-      "image": "00017606_042.png",
+      "image": "00009845_024.png",
       "correct": true,
-      "loss": 1.7548280954360962
+      "loss": 1.7548534870147705
     },
     {
-      "image": "00021222_004.png",
+      "image": "00021381_022.png",
       "correct": true,
-      "loss": 1.7548284530639648
+      "loss": 1.754936695098877
     },
     {
-      "image": "00022369_012.png",
+      "image": "00018249_017.png",
       "correct": true,
-      "loss": 1.7548284530639648
+      "loss": 1.7549710273742676
     },
     {
-      "image": "00022899_009.png",
+      "image": "00009166_014.png",
       "correct": true,
-      "loss": 1.7548285722732544
+      "loss": 1.755374789237976
     },
     {
-      "image": "00026346_018.png",
+      "image": "00009166_017.png",
+      "correct": true,
+      "loss": 1.7556235790252686
+    },
+    {
+      "image": "00004492_001.png",
+      "correct": true,
+      "loss": 1.756740927696228
+    },
+    {
+      "image": "00019124_038.png",
+      "correct": true,
+      "loss": 1.7574772834777832
+    }
+  ],
+  "Infiltration": [
+    {
+      "image": "00023309_021.png",
+      "correct": true,
+      "loss": 1.754826307296753
+    },
+    {
+      "image": "00027357_003.png",
+      "correct": true,
+      "loss": 1.7548273801803589
+    },
+    {
+      "image": "00004832_016.png",
+      "correct": true,
+      "loss": 1.7548277378082275
+    },
+    {
+      "image": "00002437_043.png",
+      "correct": true,
+      "loss": 1.7548298835754395
+    },
+    {
+      "image": "00002529_020.png",
+      "correct": true,
+      "loss": 1.754831314086914
+    },
+    {
+      "image": "00023271_003.png",
+      "correct": true,
+      "loss": 1.7548327445983887
+    },
+    {
+      "image": "00027782_000.png",
+      "correct": true,
+      "loss": 1.7548341751098633
+    },
+    {
+      "image": "00013615_069.png",
+      "correct": true,
+      "loss": 1.7548344135284424
+    },
+    {
+      "image": "00008626_019.png",
+      "correct": true,
+      "loss": 1.7548353672027588
+    },
+    {
+      "image": "00017318_012.png",
+      "correct": true,
+      "loss": 1.7548367977142334
+    }
+  ],
+  "Pneumothorax": [
+    {
+      "image": "00026078_005.png",
       "correct": true,
       "loss": 1.7548292875289917
     },
     {
-      "image": "00022416_047.png",
+      "image": "00028876_043.png",
       "correct": true,
-      "loss": 1.7548309564590454
+      "loss": 1.75483238697052
+    },
+    {
+      "image": "00028861_008.png",
+      "correct": true,
+      "loss": 1.7548359632492065
+    },
+    {
+      "image": "00016587_082.png",
+      "correct": true,
+      "loss": 1.754837155342102
+    },
+    {
+      "image": "00011460_004.png",
+      "correct": true,
+      "loss": 1.7548372745513916
+    },
+    {
+      "image": "00028861_013.png",
+      "correct": true,
+      "loss": 1.7548410892486572
+    },
+    {
+      "image": "00025085_003.png",
+      "correct": true,
+      "loss": 1.7548447847366333
+    },
+    {
+      "image": "00025085_008.png",
+      "correct": true,
+      "loss": 1.7548582553863525
+    },
+    {
+      "image": "00016587_006.png",
+      "correct": true,
+      "loss": 1.7548601627349854
+    },
+    {
+      "image": "00005801_010.png",
+      "correct": true,
+      "loss": 1.7548621892929077
+    }
+  ],
+  "Effusion": [
+    {
+      "image": "00016987_010.png",
+      "correct": true,
+      "loss": 1.7548242807388306
+    },
+    {
+      "image": "00017606_027.png",
+      "correct": true,
+      "loss": 1.7548242807388306
+    },
+    {
+      "image": "00020113_035.png",
+      "correct": true,
+      "loss": 1.7548242807388306
+    },
+    {
+      "image": "00025252_059.png",
+      "correct": true,
+      "loss": 1.7548242807388306
+    },
+    {
+      "image": "00029532_019.png",
+      "correct": true,
+      "loss": 1.7548242807388306
+    },
+    {
+      "image": "00014626_015.png",
+      "correct": true,
+      "loss": 1.7548246383666992
+    },
+    {
+      "image": "00020671_008.png",
+      "correct": true,
+      "loss": 1.7548246383666992
+    },
+    {
+      "image": "00025252_081.png",
+      "correct": true,
+      "loss": 1.7548246383666992
+    },
+    {
+      "image": "00026098_010.png",
+      "correct": true,
+      "loss": 1.7548246383666992
+    },
+    {
+      "image": "00017137_003.png",
+      "correct": true,
+      "loss": 1.7548248767852783
     }
   ],
   "Mass": [
     {
-      "image": "00018101_006.png",
+      "image": "00016064_013.png",
       "correct": true,
-      "loss": 1.7548511028289795
+      "loss": 1.7548333406448364
     },
     {
-      "image": "00016064_000.png",
+      "image": "00011804_007.png",
       "correct": true,
-      "loss": 1.7548562288284302
+      "loss": 1.7548364400863647
+    },
+    {
+      "image": "00019089_000.png",
+      "correct": true,
+      "loss": 1.7548377513885498
+    },
+    {
+      "image": "00026261_001.png",
+      "correct": true,
+      "loss": 1.7548383474349976
+    },
+    {
+      "image": "00011804_019.png",
+      "correct": true,
+      "loss": 1.7548397779464722
+    },
+    {
+      "image": "00011157_001.png",
+      "correct": true,
+      "loss": 1.7548401355743408
+    },
+    {
+      "image": "00009290_000.png",
+      "correct": true,
+      "loss": 1.7548471689224243
+    },
+    {
+      "image": "00018101_006.png",
+      "correct": true,
+      "loss": 1.754848599433899
     },
     {
       "image": "00013911_023.png",
       "correct": true,
-      "loss": 1.754900574684143
+      "loss": 1.7548494338989258
     },
     {
-      "image": "00027937_007.png",
+      "image": "00009683_000.png",
       "correct": true,
-      "loss": 1.754919409751892
-    },
-    {
-      "image": "00016064_001.png",
-      "correct": true,
-      "loss": 1.7550315856933594
-    },
-    {
-      "image": "00008566_000.png",
-      "correct": true,
-      "loss": 1.7550345659255981
-    },
-    {
-      "image": "00016064_013.png",
-      "correct": true,
-      "loss": 1.7550400495529175
-    },
-    {
-      "image": "00027556_001.png",
-      "correct": true,
-      "loss": 1.7551157474517822
-    },
-    {
-      "image": "00015310_004.png",
-      "correct": true,
-      "loss": 1.755123257637024
-    },
-    {
-      "image": "00022192_003.png",
-      "correct": true,
-      "loss": 1.7551339864730835
+      "loss": 1.7548601627349854
     }
   ],
   "Emphysema": [
     {
+      "image": "00008911_026.png",
+      "correct": true,
+      "loss": 1.7548245191574097
+    },
+    {
+      "image": "00010767_005.png",
+      "correct": true,
+      "loss": 1.7548408508300781
+    },
+    {
+      "image": "00014731_015.png",
+      "correct": true,
+      "loss": 1.7548471689224243
+    },
+    {
+      "image": "00012217_001.png",
+      "correct": true,
+      "loss": 1.7548669576644897
+    },
+    {
       "image": "00026412_056.png",
       "correct": true,
-      "loss": 1.754948616027832
+      "loss": 1.7548890113830566
     },
     {
-      "image": "00015530_085.png",
+      "image": "00015530_056.png",
       "correct": true,
-      "loss": 1.755476713180542
+      "loss": 1.7551345825195312
     },
     {
-      "image": "00010815_011.png",
+      "image": "00026412_054.png",
       "correct": true,
-      "loss": 1.7589550018310547
+      "loss": 1.75540030002594
     },
     {
-      "image": "00029259_017.png",
+      "image": "00004943_003.png",
       "correct": true,
-      "loss": 1.7638142108917236
+      "loss": 1.7554072141647339
     },
     {
-      "image": "00027478_004.png",
+      "image": "00027592_004.png",
       "correct": true,
-      "loss": 1.7650389671325684
+      "loss": 1.755426287651062
     },
     {
-      "image": "00018865_015.png",
+      "image": "00026412_055.png",
       "correct": true,
-      "loss": 1.767306923866272
-    },
-    {
-      "image": "00018865_020.png",
-      "correct": true,
-      "loss": 1.8027464151382446
-    },
-    {
-      "image": "00005681_019.png",
-      "correct": true,
-      "loss": 1.803942322731018
-    },
-    {
-      "image": "00017504_039.png",
-      "correct": true,
-      "loss": 1.836395025253296
-    },
-    {
-      "image": "00019437_002.png",
-      "correct": true,
-      "loss": 1.8428566455841064
+      "loss": 1.7559261322021484
     }
   ],
   "Cardiomegaly": [
     {
-      "image": "00019426_000.png",
+      "image": "00009745_000.png",
       "correct": true,
-      "loss": 1.754834771156311
+      "loss": 1.7548247575759888
     },
     {
-      "image": "00000845_000.png",
+      "image": "00004342_007.png",
       "correct": true,
-      "loss": 1.754841923713684
-    },
-    {
-      "image": "00004533_019.png",
-      "correct": true,
-      "loss": 1.7548502683639526
-    },
-    {
-      "image": "00004534_003.png",
-      "correct": true,
-      "loss": 1.7548545598983765
-    },
-    {
-      "image": "00004533_018.png",
-      "correct": true,
-      "loss": 1.7548573017120361
-    },
-    {
-      "image": "00002435_008.png",
-      "correct": true,
-      "loss": 1.7548655271530151
-    },
-    {
-      "image": "00005532_001.png",
-      "correct": true,
-      "loss": 1.7548717260360718
-    },
-    {
-      "image": "00002435_001.png",
-      "correct": true,
-      "loss": 1.7548784017562866
-    },
-    {
-      "image": "00020986_001.png",
-      "correct": true,
-      "loss": 1.7548871040344238
+      "loss": 1.7548249959945679
     },
     {
       "image": "00015425_012.png",
       "correct": true,
-      "loss": 1.7548877000808716
+      "loss": 1.7548251152038574
+    },
+    {
+      "image": "00004534_003.png",
+      "correct": true,
+      "loss": 1.7548255920410156
+    },
+    {
+      "image": "00019426_000.png",
+      "correct": true,
+      "loss": 1.7548257112503052
+    },
+    {
+      "image": "00004526_008.png",
+      "correct": true,
+      "loss": 1.754826307296753
+    },
+    {
+      "image": "00004534_005.png",
+      "correct": true,
+      "loss": 1.754826307296753
+    },
+    {
+      "image": "00011463_001.png",
+      "correct": true,
+      "loss": 1.754826307296753
+    },
+    {
+      "image": "00016990_000.png",
+      "correct": true,
+      "loss": 1.7548264265060425
+    },
+    {
+      "image": "00021860_005.png",
+      "correct": true,
+      "loss": 1.7548267841339111
     }
   ],
   "Consolidation": [
     {
-      "image": "00010805_004.png",
+      "image": "00030408_014.png",
       "correct": true,
-      "loss": 1.7671796083450317
+      "loss": 1.7548601627349854
+    },
+    {
+      "image": "00013993_092.png",
+      "correct": true,
+      "loss": 1.755761981010437
+    },
+    {
+      "image": "00030079_015.png",
+      "correct": true,
+      "loss": 1.7561464309692383
+    },
+    {
+      "image": "00013993_015.png",
+      "correct": true,
+      "loss": 1.7566921710968018
+    },
+    {
+      "image": "00007735_007.png",
+      "correct": true,
+      "loss": 1.758868932723999
+    },
+    {
+      "image": "00015676_009.png",
+      "correct": true,
+      "loss": 1.7592532634735107
     },
     {
       "image": "00017710_007.png",
       "correct": true,
-      "loss": 1.782184362411499
+      "loss": 1.762410283088684
     },
     {
-      "image": "00017504_046.png",
+      "image": "00016786_003.png",
       "correct": true,
-      "loss": 1.7878497838974
+      "loss": 1.7655463218688965
     },
     {
-      "image": "00001946_001.png",
+      "image": "00020673_049.png",
       "correct": true,
-      "loss": 1.7984062433242798
+      "loss": 1.766322374343872
     },
     {
-      "image": "00017504_048.png",
+      "image": "00028974_023.png",
       "correct": true,
-      "loss": 1.819209098815918
-    },
-    {
-      "image": "00016786_004.png",
-      "correct": true,
-      "loss": 1.8228496313095093
-    },
-    {
-      "image": "00010012_014.png",
-      "correct": true,
-      "loss": 1.8243391513824463
-    },
-    {
-      "image": "00010805_022.png",
-      "correct": true,
-      "loss": 1.877399206161499
-    },
-    {
-      "image": "00016522_017.png",
-      "correct": true,
-      "loss": 1.9011166095733643
-    },
-    {
-      "image": "00006271_073.png",
-      "correct": true,
-      "loss": 1.909362554550171
+      "loss": 1.7703626155853271
     }
   ],
   "Edema": [
     {
-      "image": "00019157_005.png",
+      "image": "00006160_001.png",
       "correct": true,
-      "loss": 1.7556523084640503
+      "loss": 1.7548251152038574
+    },
+    {
+      "image": "00011985_004.png",
+      "correct": true,
+      "loss": 1.7548420429229736
     },
     {
       "image": "00007018_032.png",
       "correct": true,
-      "loss": 1.7571065425872803
+      "loss": 1.7549309730529785
     },
     {
-      "image": "00015100_006.png",
+      "image": "00006472_001.png",
       "correct": true,
-      "loss": 1.775834321975708
+      "loss": 1.7556610107421875
     },
     {
-      "image": "00019208_004.png",
+      "image": "00007018_022.png",
       "correct": true,
-      "loss": 1.8178751468658447
+      "loss": 1.755692720413208
     },
     {
-      "image": "00014839_026.png",
+      "image": "00023271_015.png",
       "correct": true,
-      "loss": 1.8311634063720703
+      "loss": 1.7565981149673462
     },
     {
-      "image": "00015264_005.png",
+      "image": "00019508_005.png",
       "correct": true,
-      "loss": 1.8472826480865479
+      "loss": 1.757131814956665
     },
     {
-      "image": "00011973_002.png",
+      "image": "00018615_028.png",
       "correct": true,
-      "loss": 1.8589502573013306
-    },
-    {
-      "image": "00014792_009.png",
-      "correct": true,
-      "loss": 1.867021083831787
-    },
-    {
-      "image": "00027726_008.png",
-      "correct": true,
-      "loss": 1.8700873851776123
+      "loss": 1.7640584707260132
     },
     {
       "image": "00007018_038.png",
       "correct": true,
-      "loss": 1.8726733922958374
+      "loss": 1.7808053493499756
+    },
+    {
+      "image": "00022290_010.png",
+      "correct": true,
+      "loss": 1.7879719734191895
     }
   ],
   "Atelectasis": [
     {
-      "image": "00026478_005.png",
+      "image": "00029464_003.png",
       "correct": true,
-      "loss": 1.7548551559448242
+      "loss": 1.7548246383666992
     },
     {
-      "image": "00030408_000.png",
+      "image": "00002856_016.png",
       "correct": true,
-      "loss": 1.7548695802688599
+      "loss": 1.7548247575759888
     },
     {
-      "image": "00019750_007.png",
+      "image": "00027637_006.png",
       "correct": true,
-      "loss": 1.7548764944076538
+      "loss": 1.7548255920410156
     },
     {
-      "image": "00014839_032.png",
+      "image": "00011514_002.png",
       "correct": true,
-      "loss": 1.7549257278442383
+      "loss": 1.7548272609710693
     },
     {
-      "image": "00021818_013.png",
+      "image": "00026196_002.png",
       "correct": true,
-      "loss": 1.7550179958343506
+      "loss": 1.7548283338546753
     },
     {
-      "image": "00015262_007.png",
+      "image": "00019742_002.png",
       "correct": true,
-      "loss": 1.7550851106643677
+      "loss": 1.754828691482544
     },
     {
-      "image": "00020408_045.png",
+      "image": "00019271_051.png",
       "correct": true,
-      "loss": 1.755662202835083
+      "loss": 1.7548290491104126
     },
     {
-      "image": "00026920_000.png",
+      "image": "00018412_001.png",
       "correct": true,
-      "loss": 1.7557650804519653
+      "loss": 1.7548307180404663
     },
     {
-      "image": "00029817_003.png",
+      "image": "00019271_052.png",
       "correct": true,
-      "loss": 1.7559568881988525
+      "loss": 1.7548311948776245
     },
     {
-      "image": "00027474_003.png",
+      "image": "00001152_001.png",
       "correct": true,
-      "loss": 1.7560415267944336
+      "loss": 1.7548325061798096
     }
   ],
   "Fibrosis": [
     {
+      "image": "00009166_013.png",
+      "correct": true,
+      "loss": 1.7551065683364868
+    },
+    {
+      "image": "00002722_002.png",
+      "correct": true,
+      "loss": 1.7557886838912964
+    },
+    {
+      "image": "00018203_000.png",
+      "correct": true,
+      "loss": 1.7725802659988403
+    },
+    {
+      "image": "00006416_004.png",
+      "correct": true,
+      "loss": 1.7774615287780762
+    },
+    {
       "image": "00014969_000.png",
       "correct": true,
-      "loss": 1.766958475112915
+      "loss": 1.7889039516448975
     },
     {
-      "image": "00000733_002.png",
+      "image": "00015676_004.png",
       "correct": true,
-      "loss": 1.8524479866027832
+      "loss": 1.7891368865966797
     },
     {
-      "image": "00014870_002.png",
+      "image": "00020603_001.png",
       "correct": true,
-      "loss": 1.9425532817840576
+      "loss": 1.8001558780670166
     },
     {
-      "image": "00022280_001.png",
+      "image": "00015056_001.png",
       "correct": true,
-      "loss": 1.9583704471588135
+      "loss": 1.8559612035751343
     },
     {
-      "image": "00014022_050.png",
+      "image": "00008407_000.png",
       "correct": true,
-      "loss": 2.2244873046875
+      "loss": 1.8703902959823608
+    },
+    {
+      "image": "00003460_003.png",
+      "correct": true,
+      "loss": 1.879459261894226
     }
   ],
   "Pneumonia": [],
   "Nodule": [
     {
-      "image": "00010775_005.png",
+      "image": "00022726_015.png",
       "correct": true,
-      "loss": 1.7554757595062256
-    },
-    {
-      "image": "00025707_018.png",
-      "correct": true,
-      "loss": 1.7577635049819946
-    },
-    {
-      "image": "00019013_001.png",
-      "correct": true,
-      "loss": 1.761207103729248
-    },
-    {
-      "image": "00018366_000.png",
-      "correct": true,
-      "loss": 1.7634716033935547
-    },
-    {
-      "image": "00016587_049.png",
-      "correct": true,
-      "loss": 1.7661359310150146
-    },
-    {
-      "image": "00010959_006.png",
-      "correct": true,
-      "loss": 1.7751210927963257
-    },
-    {
-      "image": "00020393_001.png",
-      "correct": true,
-      "loss": 1.7753288745880127
+      "loss": 1.7548353672027588
     },
     {
       "image": "00025707_017.png",
       "correct": true,
-      "loss": 1.7753994464874268
+      "loss": 1.7548471689224243
     },
     {
-      "image": "00006713_014.png",
+      "image": "00010198_013.png",
       "correct": true,
-      "loss": 1.778860330581665
+      "loss": 1.7550625801086426
     },
     {
-      "image": "00018249_000.png",
+      "image": "00025707_018.png",
       "correct": true,
-      "loss": 1.7817440032958984
+      "loss": 1.7551110982894897
+    },
+    {
+      "image": "00029481_000.png",
+      "correct": true,
+      "loss": 1.7552764415740967
+    },
+    {
+      "image": "00029909_004.png",
+      "correct": true,
+      "loss": 1.755420446395874
+    },
+    {
+      "image": "00023198_000.png",
+      "correct": true,
+      "loss": 1.755500316619873
+    },
+    {
+      "image": "00001555_002.png",
+      "correct": true,
+      "loss": 1.755645513534546
+    },
+    {
+      "image": "00019373_050.png",
+      "correct": true,
+      "loss": 1.7556822299957275
+    },
+    {
+      "image": "00005416_002.png",
+      "correct": true,
+      "loss": 1.755859613418579
     }
   ]
 }
