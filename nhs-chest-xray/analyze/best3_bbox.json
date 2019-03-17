@@ -1,0 +1,347 @@
+{
+  "Atelectasis": [
+    {
+      "image": "00029464_003.png",
+      "correct": true,
+      "loss": 1.7548246383666992
+    },
+    {
+      "image": "00018412_001.png",
+      "correct": true,
+      "loss": 1.7548307180404663
+    },
+    {
+      "image": "00026136_002.png",
+      "correct": true,
+      "loss": 1.7549009323120117
+    },
+    {
+      "image": "00000583_008.png",
+      "correct": true,
+      "loss": 1.7549102306365967
+    },
+    {
+      "image": "00025221_001.png",
+      "correct": true,
+      "loss": 1.7549773454666138
+    },
+    {
+      "image": "00012829_004.png",
+      "correct": true,
+      "loss": 1.7550057172775269
+    },
+    {
+      "image": "00019271_065.png",
+      "correct": true,
+      "loss": 1.7551524639129639
+    },
+    {
+      "image": "00009256_005.png",
+      "correct": true,
+      "loss": 1.7575950622558594
+    },
+    {
+      "image": "00019271_064.png",
+      "correct": true,
+      "loss": 1.7585079669952393
+    },
+    {
+      "image": "00017877_001.png",
+      "correct": true,
+      "loss": 1.7611209154129028
+    }
+  ],
+  "Pneumonia": [],
+  "Cardiomegaly": [
+    {
+      "image": "00009745_000.png",
+      "correct": true,
+      "loss": 1.7548247575759888
+    },
+    {
+      "image": "00015425_012.png",
+      "correct": true,
+      "loss": 1.7548251152038574
+    },
+    {
+      "image": "00019426_000.png",
+      "correct": true,
+      "loss": 1.7548257112503052
+    },
+    {
+      "image": "00016990_000.png",
+      "correct": true,
+      "loss": 1.7548264265060425
+    },
+    {
+      "image": "00000661_000.png",
+      "correct": true,
+      "loss": 1.7548272609710693
+    },
+    {
+      "image": "00013635_002.png",
+      "correct": true,
+      "loss": 1.7548283338546753
+    },
+    {
+      "image": "00004461_000.png",
+      "correct": true,
+      "loss": 1.7548296451568604
+    },
+    {
+      "image": "00026087_000.png",
+      "correct": true,
+      "loss": 1.7548308372497559
+    },
+    {
+      "image": "00000845_000.png",
+      "correct": true,
+      "loss": 1.7548316717147827
+    },
+    {
+      "image": "00017511_006.png",
+      "correct": true,
+      "loss": 1.7548331022262573
+    }
+  ],
+  "Infiltration": [
+    {
+      "image": "00021926_007.png",
+      "correct": true,
+      "loss": 1.7562566995620728
+    },
+    {
+      "image": "00014617_003.png",
+      "correct": true,
+      "loss": 1.7575743198394775
+    },
+    {
+      "image": "00030323_028.png",
+      "correct": true,
+      "loss": 1.7772537469863892
+    },
+    {
+      "image": "00017981_014.png",
+      "correct": true,
+      "loss": 1.83479905128479
+    },
+    {
+      "image": "00014251_029.png",
+      "correct": true,
+      "loss": 1.8413972854614258
+    },
+    {
+      "image": "00013922_022.png",
+      "correct": true,
+      "loss": 1.8552160263061523
+    },
+    {
+      "image": "00018721_010.png",
+      "correct": true,
+      "loss": 1.855651617050171
+    },
+    {
+      "image": "00021710_003.png",
+      "correct": true,
+      "loss": 1.8977924585342407
+    }
+  ],
+  "Mass": [
+    {
+      "image": "00026261_001.png",
+      "correct": true,
+      "loss": 1.7548383474349976
+    },
+    {
+      "image": "00011157_001.png",
+      "correct": true,
+      "loss": 1.7548401355743408
+    },
+    {
+      "image": "00018101_012.png",
+      "correct": true,
+      "loss": 1.754953384399414
+    },
+    {
+      "image": "00022192_003.png",
+      "correct": true,
+      "loss": 1.7549996376037598
+    },
+    {
+      "image": "00028265_007.png",
+      "correct": true,
+      "loss": 1.7551852464675903
+    },
+    {
+      "image": "00011925_077.png",
+      "correct": true,
+      "loss": 1.7553023099899292
+    },
+    {
+      "image": "00011151_004.png",
+      "correct": true,
+      "loss": 1.7554093599319458
+    },
+    {
+      "image": "00018623_001.png",
+      "correct": true,
+      "loss": 1.769957423210144
+    },
+    {
+      "image": "00019499_000.png",
+      "correct": true,
+      "loss": 1.8586281538009644
+    }
+  ],
+  "Effusion": [
+    {
+      "image": "00007034_016.png",
+      "correct": true,
+      "loss": 1.7548279762268066
+    },
+    {
+      "image": "00027028_017.png",
+      "correct": true,
+      "loss": 1.754828929901123
+    },
+    {
+      "image": "00030634_000.png",
+      "correct": true,
+      "loss": 1.7548362016677856
+    },
+    {
+      "image": "00010007_168.png",
+      "correct": true,
+      "loss": 1.7548599243164062
+    },
+    {
+      "image": "00001437_012.png",
+      "correct": true,
+      "loss": 1.7548954486846924
+    },
+    {
+      "image": "00021181_002.png",
+      "correct": true,
+      "loss": 1.7549129724502563
+    },
+    {
+      "image": "00029894_000.png",
+      "correct": true,
+      "loss": 1.7549772262573242
+    },
+    {
+      "image": "00002395_007.png",
+      "correct": true,
+      "loss": 1.7558341026306152
+    },
+    {
+      "image": "00028974_016.png",
+      "correct": true,
+      "loss": 1.7946139574050903
+    },
+    {
+      "image": "00012045_009.png",
+      "correct": true,
+      "loss": 1.8201621770858765
+    }
+  ],
+  "Nodule": [
+    {
+      "image": "00001555_002.png",
+      "correct": true,
+      "loss": 1.755645513534546
+    },
+    {
+      "image": "00015141_002.png",
+      "correct": true,
+      "loss": 1.7558956146240234
+    },
+    {
+      "image": "00011832_002.png",
+      "correct": true,
+      "loss": 1.7578682899475098
+    },
+    {
+      "image": "00019058_004.png",
+      "correct": true,
+      "loss": 1.757997989654541
+    },
+    {
+      "image": "00020274_021.png",
+      "correct": true,
+      "loss": 1.762865662574768
+    },
+    {
+      "image": "00018366_000.png",
+      "correct": true,
+      "loss": 1.7922230958938599
+    },
+    {
+      "image": "00020393_001.png",
+      "correct": true,
+      "loss": 1.809643268585205
+    },
+    {
+      "image": "00012374_000.png",
+      "correct": true,
+      "loss": 1.8570001125335693
+    },
+    {
+      "image": "00013674_000.png",
+      "correct": true,
+      "loss": 1.8823195695877075
+    }
+  ],
+  "Pneumothorax": [
+    {
+      "image": "00029075_013.png",
+      "correct": true,
+      "loss": 1.755034327507019
+    },
+    {
+      "image": "00010936_016.png",
+      "correct": true,
+      "loss": 1.7552011013031006
+    },
+    {
+      "image": "00028861_009.png",
+      "correct": true,
+      "loss": 1.7552812099456787
+    },
+    {
+      "image": "00010767_016.png",
+      "correct": true,
+      "loss": 1.7566943168640137
+    },
+    {
+      "image": "00028924_009.png",
+      "correct": true,
+      "loss": 1.7576904296875
+    },
+    {
+      "image": "00021782_028.png",
+      "correct": true,
+      "loss": 1.7584301233291626
+    },
+    {
+      "image": "00021748_000.png",
+      "correct": true,
+      "loss": 1.759423017501831
+    },
+    {
+      "image": "00014083_023.png",
+      "correct": true,
+      "loss": 1.7627105712890625
+    },
+    {
+      "image": "00028876_027.png",
+      "correct": true,
+      "loss": 1.7793514728546143
+    },
+    {
+      "image": "00025954_025.png",
+      "correct": true,
+      "loss": 1.8048903942108154
+    }
+  ]
+}
