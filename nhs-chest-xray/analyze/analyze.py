@@ -11,7 +11,6 @@ from collections import defaultdict
 
 
 CSV_FILE = os.path.join('..', 'data', 'Data_Entry_2017.csv')
-BATCH_SIZE = 1
 
 
 class XRayDataset(Dataset):
@@ -75,9 +74,9 @@ def load_image_tensor(path, device=None, unsqueeze=False):
         tensor = tensor.to(device)
     return image, tensor
 
-def load_model(device):
+def load_model(device, batch_size=1):
     dataset = XRayDataset(transform=image_transforms(), validation=True)
-    loader = DataLoader(dataset, batch_size=BATCH_SIZE)
+    loader = DataLoader(dataset, batch_size=batch_size)
 
     num_classes = len(dataset.classes)
 
