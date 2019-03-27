@@ -5,6 +5,7 @@ https://pytorch.org/tutorials/beginner/finetuning_torchvision_models_tutorial.ht
 """
 import os
 import torch
+from pathlib import Path
 from datetime import datetime
 
 
@@ -13,7 +14,10 @@ def train_model(name, model, dataloaders, criterion, optimizer, device, num_epoc
 
     if not os.path.exists('results'):
         os.mkdir('results')
-    f = open(f'results/{name}.txt', 'w', buffering=1)
+    results_file = Path(f'results/{name}.txt')
+    if results_file.exists():
+        raise Exception('Result file already exists, please change name')
+    f = open(results_file, 'w', buffering=1)
 
     for epoch in range(num_epochs):
         epoch_start = datetime.now()
