@@ -20,16 +20,17 @@ class BratsDataset(Dataset):
     def __getitem__(self, index):
         filename, layer = self.files[index]
         base_path = self.path / filename / layer
+        toTensor = transforms.ToTensor()
         return {
             'filename': filename,
             'layer': layer,
-            'input': torch.stack([
-                self.transform(Image.open(base_path / 't1.png')).squeeze(0),
-                self.transform(Image.open(base_path / 't1ce.png')).squeeze(0),
-                self.transform(Image.open(base_path / 't2.png')).squeeze(0),
-                self.transform(Image.open(base_path / 'flair.png')).squeeze(0),
-            ]),
-            'segment': transforms.ToTensor()(Image.open(base_path / 'segment.png')).squeeze(0) / 255.0,
+            'input': self.transform(torch.stack([
+                toTensor(Image.open(base_path / 't1.png')).squeeze(0),
+                toTensor(Image.open(base_path / 't1ce.png')).squeeze(0),
+                toTensor(Image.open(base_path / 't2.png')).squeeze(0),
+                toTensor(Image.open(base_path / 'flair.png')).squeeze(0),
+            ])),
+            'segment': toTensor(Image.open(base_path / 'segment.png')).squeeze(0) / 255.0,
         }
 
     def __len__(self):
