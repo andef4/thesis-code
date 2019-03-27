@@ -70,4 +70,4 @@ def train_model(name, model, dataloaders, criterion, optimizer, device, num_epoc
 
             # save model to disk
             if phase == 'val':
-                torch.save(model.state_dict(), f'models/{name}_{epoch}.pth')
+                torch.save(model.state_dict(), f'models/{name}_{epoch:04d}.pth')
