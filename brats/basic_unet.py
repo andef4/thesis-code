@@ -82,4 +82,6 @@ class UNet(nn.Module):
         x = torch.cat((x, enc_conv1_res), dim=1)
         x = self.dec_conv4(x)
 
-        return self.output_conv(x).squeeze(1)
+        x = self.output_conv(x).squeeze(1)
+        x = torch.sigmoid(x)
+        return x
