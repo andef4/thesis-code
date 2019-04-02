@@ -4,6 +4,7 @@ import torch
 from PIL import Image
 from pathlib import Path
 
+
 class BratsDataset(Dataset):
     def __init__(self, path, transform, test=False):
         self.path = path
@@ -35,6 +36,7 @@ class BratsDataset(Dataset):
 
     def __len__(self):
         return len(self.files)
+
 
 def load_dataset(batch_size):
     transform = transforms.Compose([

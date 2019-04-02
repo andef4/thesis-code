@@ -57,14 +57,14 @@ class RISE(nn.Module):
 
         # Number of classes
         CL = p.size(1)
-        
+
         sal = torch.matmul(p.data.transpose(0, 1), self.masks.view(mask_count, H * W))
-        
+
         sal = sal.view((CL, H, W))
         sal /= mask_count
         return sal
-    
-    
+
+
 class RISEBatch(RISE):
     def forward(self, x):
         # Apply array of filters to the image
@@ -74,7 +74,7 @@ class RISEBatch(RISE):
         stack = stack.view(B * N, C, H, W)
         stack = stack
 
-        #p = nn.Softmax(dim=1)(model(stack)) in batches
+        # p = nn.Softmax(dim=1)(model(stack)) in batches
         p = []
         for i in range(0, N*B, self.gpu_batch):
             p.append(self.model(stack[i:min(i + self.gpu_batch, N*B)]))

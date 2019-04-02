@@ -17,7 +17,7 @@ class ConvRelu2(nn.Module):
         self.conv2 = nn.Conv2d(in_channels=out_channels, out_channels=out_channels, kernel_size=3, padding=1)
         self.batch_norm1 = nn.BatchNorm2d(out_channels)
         self.batch_norm2 = nn.BatchNorm2d(out_channels)
-        
+
     def forward(self, x):
         x = self.conv1(x)
         x = self.batch_norm1(x)
@@ -39,16 +39,16 @@ class UNet(nn.Module):
         self.enc_conv4 = ConvRelu2(256, 512)
         self.enc_conv5 = ConvRelu2(512, 1024)
 
-        self.dec_conv1 = ConvRelu2(512 + 1024, 512) # conv4 + conv5
-        self.dec_conv2 = ConvRelu2(256 + 512, 256) # conv3 + conv4
-        self.dec_conv3 = ConvRelu2(128 + 256, 128) # conv2 + conv3
-        self.dec_conv4 = ConvRelu2(64 + 128, 64) # conv1 + conv2
-        
+        self.dec_conv1 = ConvRelu2(512 + 1024, 512)  # conv4 + conv5
+        self.dec_conv2 = ConvRelu2(256 + 512, 256)  # conv3 + conv4
+        self.dec_conv3 = ConvRelu2(128 + 256, 128)  # conv2 + conv3
+        self.dec_conv4 = ConvRelu2(64 + 128, 64)  # conv1 + conv2
+
         self.output_conv = nn.Conv2d(in_channels=64, out_channels=out_channels, kernel_size=1, padding=0)
 
     def upsample(self, x):
         return F.interpolate(x, scale_factor=2, mode='bilinear', align_corners=True)
-        
+
     def forward(self, x):
         # encoder
         enc_conv1_res = self.enc_conv1(x)

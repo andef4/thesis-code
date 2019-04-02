@@ -1,7 +1,7 @@
 """
 Training loop from https://github.com/andef4/deeplearning (MIT licensed), original source PyTorch tutorial:
-https://pytorch.org/tutorials/beginner/finetuning_torchvision_models_tutorial.html#model-training-and-validation-code, under BSD license
-
+https://pytorch.org/tutorials/beginner/finetuning_torchvision_models_tutorial.html#model-training-and-validation-code
+BSD license
 """
 import os
 import torch
@@ -10,8 +10,6 @@ from datetime import datetime
 
 
 def train_model(name, model, dataloaders, criterion, optimizer, device, num_epochs=25):
-    best_acc = 0.0
-
     if not os.path.exists('results'):
         os.mkdir('results')
     results_file = Path(f'results/{name}.txt')
