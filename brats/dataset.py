@@ -1,8 +1,8 @@
-from torch.utils.data import Dataset
+from torch.utils.data import Dataset, DataLoader
 from torchvision import transforms
 import torch
 from PIL import Image
-
+from pathlib import Path
 
 class BratsDataset(Dataset):
     def __init__(self, path, transform, test=False):
@@ -35,3 +35,13 @@ class BratsDataset(Dataset):
 
     def __len__(self):
         return len(self.files)
+
+def load_dataset(batch_size):
+    transform = transforms.Compose([
+        transforms.Normalize([0.5, 0.5, 0.5, 0.5], [0.5, 0.5, 0.5, 0.5])
+    ])
+    train_dataset = BratsDataset(Path('data/processed'), transform=transform, test=False)
+    test_dataset = BratsDataset(Path('data/processed'), transform=transform, test=True)
+    train_loader = DataLoader(train_dataset, batch_size=batch_size)
+    test_loader = DataLoader(test_dataset, batch_size=batch_size)
+    return train_loader, test_loader
