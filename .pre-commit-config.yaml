@@ -3,3 +3,10 @@ repos:
     rev: v2.0.0
     hooks:
     -   id: flake8
+-   repo: local
+    hooks:
+    - id: flake8_ipynb
+      name: flake8 ipynb
+      entry: ./ipynb_lint.sh
+      language: script
+      files: '\.ipynb$'

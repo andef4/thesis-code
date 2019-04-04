@@ -11,3 +11,5 @@ scikit-learn==0.20.3
 scipy==1.2.1
 torch==1.0.1.post2
 torchvision==0.2.2.post3
+jupytext==1.0.5
+
