@@ -69,7 +69,7 @@ def train_model(name, model, dataloaders, criterion, optimizer, device, num_epoc
                     dh1 = directed_hausdorff(output, segment)[0]
                     dh2 = directed_hausdorff(segment, output)[0]
                     hausdorff_distances.append(np.max([dh1, dh2]))
-                    dice_coefficient = dice(output.reshape(240 * 240), segment.reshape(240 * 240))
+                    dice_coefficient = 1.0 - dice(output.reshape(240 * 240), segment.reshape(240 * 240))
                     dice_coefficients.append(dice_coefficient)
 
             epoch_loss = running_loss / len(dataloaders[phase].dataset)
