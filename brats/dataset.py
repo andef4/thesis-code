@@ -38,12 +38,12 @@ class BratsDataset(Dataset):
         return len(self.files)
 
 
-def load_dataset(batch_size):
+def load_dataset(batch_size, directory='data/processed'):
     transform = transforms.Compose([
         transforms.Normalize([0.5, 0.5, 0.5, 0.5], [0.5, 0.5, 0.5, 0.5])
     ])
-    train_dataset = BratsDataset(Path('data/processed'), transform=transform, test=False)
-    test_dataset = BratsDataset(Path('data/processed'), transform=transform, test=True)
+    train_dataset = BratsDataset(Path(directory), transform=transform, test=False)
+    test_dataset = BratsDataset(Path(directory), transform=transform, test=True)
     train_loader = DataLoader(train_dataset, batch_size=batch_size)
     test_loader = DataLoader(test_dataset, batch_size=batch_size)
     return train_loader, test_loader
