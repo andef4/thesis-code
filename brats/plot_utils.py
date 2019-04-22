@@ -2,7 +2,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-def plot_image_row(images, *, title=None, labels=None, color_map=None, color_maps=None):
+def plot_image_row(images, *, title=None, labels=None, color_map=None, color_maps=None,
+                   overlay=None, overlay_alpha=0.8, overlay_color_map='Reds'):
     image_count = len(images)
 
     if image_count == 1:
@@ -33,5 +34,7 @@ def plot_image_row(images, *, title=None, labels=None, color_map=None, color_map
             plot.imshow(images[i])
         if labels:
             plot.set_title(labels[i])
+        if overlay is not None:
+            plot.imshow(overlay, alpha=overlay_alpha, cmap=overlay_color_map)
 
     plt.show()
