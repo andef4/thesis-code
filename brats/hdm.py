@@ -26,15 +26,9 @@ class HDMResult:
         if result_type == RAW:
             return self.results
         elif result_type == BETTER_ONLY:
-            indices = self.results > self.baseline
-            copy = np.copy(self.results)
-            copy[indices] = self.baseline
-            return copy.max() - copy
+            return self.baseline - np.clip(self.results, self.results.min(), self.baseline)
         elif result_type == WORSE_ONLY:
-            indices = self.results < self.baseline
-            copy = np.copy(self.results)
-            copy[indices] = self.baseline
-            return copy
+            return np.clip(self.results, self.baseline, self.results.max())
         elif result_type == ABSOLUTE:
             zero_centered = self.results - self.baseline
             return np.abs(zero_centered)
