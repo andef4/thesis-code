@@ -20,6 +20,9 @@ class BratsDataset(Dataset):
 
     def __getitem__(self, index):
         filename, layer = self.files[index]
+        return self.get_sample(filename, layer)
+
+    def get_sample(self, filename, layer):
         base_path = self.path / filename / layer
         toTensor = transforms.ToTensor()
         return {
