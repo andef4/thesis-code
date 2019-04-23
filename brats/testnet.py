@@ -19,6 +19,9 @@ class TestnetDataset(Dataset):
 
     def __getitem__(self, index):
         filename = self.files[index]
+        return self.get_sample(filename)
+
+    def get_sample(self, filename):
         base_path = self.path / filename
         toTensor = transforms.ToTensor()
         return {
