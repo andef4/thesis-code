@@ -1,0 +1,11 @@
+time docker run -it --rm -v $PWD/images/Brats18_2013_17_1/:/data ekrivov/brats2017_old python app/predict.py
+0.04user 0.02system 5:52.06elapsed 0%CPU (0avgtext+0avgdata 51080maxresident)k
+0inputs+0outputs (0major+6113minor)pagefaults 0swaps
+
+time docker run -it --rm -v $PWD/images/Brats18_2013_17_1/:/data brats/brats_ac bash ./run.sh
+0.04user 0.01system 3:30.06elapsed 0%CPU (0avgtext+0avgdata 51196maxresident)k
+0inputs+0outputs (0major+6112minor)pagefaults 0swaps
+
+time docker run --runtime=nvidia -it --rm -v $PWD/images/Brats18_2013_17_1/:/data fabianisensee/isen2018 python3.6 predict_patient.py
+0.02user 0.01system 0:35.24elapsed 0%CPU (0avgtext+0avgdata 51800maxresident)k
+0inputs+0outputs (0major+6044minor)pagefaults 0swaps
