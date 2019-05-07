@@ -40,7 +40,7 @@ class HausdorffDistanceMasks:
                 masked_image = torch.min(image, mask)
                 output = model(masked_image)
                 output = output.detach().cpu().numpy()[0]
-                hd1 = directed_hausdorff(output, segment)
-                hd2 = directed_hausdorff(segment, output)
+                hd1 = directed_hausdorff(output, segment)[0]
+                hd2 = directed_hausdorff(segment, output)[0]
                 distances[x_offset][y_offset] = np.max([hd1, hd2])
         return distances

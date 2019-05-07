@@ -102,8 +102,8 @@ class HausdorffDistanceMasks:
         batch = batch.to(device)
         output = model(batch)
         output = output.detach().cpu().numpy()[0]
-        hd1 = directed_hausdorff(output, segment)
-        hd2 = directed_hausdorff(segment, output)
+        hd1 = directed_hausdorff(output, segment)[0]
+        hd2 = directed_hausdorff(segment, output)[0]
         return np.max([hd1, hd2])
 
     def explain(self, model, image, segment, device):
