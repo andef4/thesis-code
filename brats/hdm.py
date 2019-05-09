@@ -97,7 +97,7 @@ class HausdorffDistanceMasks:
                 row.append(tensor)
             self.masks.append(row)
 
-    def _distance(self, model, image, segment, device):
+    def distance(self, model, image, segment, device):
         batch = image.unsqueeze(0)
         batch = batch.to(device)
         output = model(batch)
@@ -106,20 +106,28 @@ class HausdorffDistanceMasks:
         hd2 = directed_hausdorff(segment, output)[0]
         return np.max([hd1, hd2])
 
-    def explain(self, model, image, segment, device):
+    def apply_mask(self, mask, image):
+        return torch.min(image, mask)
+
+    def explain(self, model, image, segment, device, channel=-1):
         assert len(image.shape) == 3
         assert image.shape[1] == self.width
         assert image.shape[2] == self.height
 
         distances = np.zeros((self.y_count, self.x_count))
 
-        baseline = self._distance(model, image, segment, device)
+        baseline = self.distance(model, image, segment, device)
 
         for y_offset in range(self.y_count):
             for x_offset in range(self.x_count):
                 mask = self.masks[x_offset][y_offset]
-                masked_image = torch.min(image, mask)
-                distances[x_offset][y_offset] = self._distance(
+                if channel == -1:
+                    # all channels
+                    masked_image = self.apply_mask(image, mask)
+                else:
+                    masked_image = image.clone()
+                    masked_image[channel] = self.apply_mask(image[channel], mask)
+                distances[x_offset][y_offset] = self.distance(
                     model, masked_image, segment, device
                 )
         # we copy all the state variables into the result so
