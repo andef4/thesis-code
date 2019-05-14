@@ -28,7 +28,7 @@ class HDMResult:
         elif result_type == BETTER_ONLY:
             return self.baseline - np.clip(self.results, self.results.min(), self.baseline)
         elif result_type == WORSE_ONLY:
-            return np.clip(self.results, self.baseline, self.results.max())
+            return np.clip(self.results, self.baseline, self.results.max()) - self.baseline
         elif result_type == ABSOLUTE:
             zero_centered = self.results - self.baseline
             return np.abs(zero_centered)
