@@ -102,6 +102,9 @@ class HausdorffDistanceMasks:
         batch = batch.to(device)
         output = model(batch)
         output = output.detach().cpu().numpy()[0]
+        return self.calculate_distance(output, segment)
+
+    def calculate_distance(self, output, segment):
         hd1 = directed_hausdorff(output, segment)[0]
         hd2 = directed_hausdorff(segment, output)[0]
         return np.max([hd1, hd2])
