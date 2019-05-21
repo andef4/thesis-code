@@ -18,7 +18,7 @@ def save_notebook(base_path, filepath):
             for key, value in output.get('data', {}).items():
                 if key == 'image/png':
                     if path is None:
-                        path = Path(base_path / 'images')
+                        path = Path(base_path / 'pictures')
                         if not path.exists():
                             path.mkdir()
                         path = path / filename
