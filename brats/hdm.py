@@ -10,6 +10,7 @@ RAW = 1  # the actual hausdorff distances as a 2D array
 BETTER_ONLY = 2  # only return points which decrease the distance when convered
 WORSE_ONLY = 3  # only return points which increase the distance when convered
 ABSOLUTE = 4  # treat better and worse distances as the same
+BASELINE_DIFF = 5
 
 
 class HDMResult:
@@ -32,6 +33,8 @@ class HDMResult:
         elif result_type == ABSOLUTE:
             zero_centered = self.results - self.baseline
             return np.abs(zero_centered)
+        elif result_type == BASELINE_DIFF:
+            return self.baseline - self.results
         else:
             raise ValueError('Invalid result_type, only hdm.RAW, hdm.ABSOLUTE, '
                              'hdm.BETTER_ONLY and hdm.WORSE_ONLY are supported.')
