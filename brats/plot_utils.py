@@ -3,7 +3,7 @@ import numpy as np
 
 
 def plot_image_row(images, *, title=None, labels=None, color_map=None, color_maps=None,
-                   overlay=None, overlay_alpha=0.8, overlay_color_map='Reds'):
+                   overlay=None, overlay_alpha=0.8, overlay_color_map='Reds', colorbar=False):
     image_count = len(images)
 
     if image_count == 1:
@@ -25,16 +25,22 @@ def plot_image_row(images, *, title=None, labels=None, color_map=None, color_map
     if title:
         figure.suptitle(title, fontsize=16)
 
+    first_image = None
     for i, plot in enumerate(plots):
         if color_map:
-            plot.imshow(images[i], cmap=color_map)
+            img = plot.imshow(images[i], cmap=color_map)
         elif color_maps:
-            plot.imshow(images[i], cmap=color_maps[i])
+            img = plot.imshow(images[i], cmap=color_maps[i])
         else:
-            plot.imshow(images[i])
+            img = plot.imshow(images[i])
+
         if labels:
             plot.set_title(labels[i])
+
         if overlay is not None:
             plot.imshow(overlay, alpha=overlay_alpha, cmap=overlay_color_map)
-
+        if i == 0:
+            first_image = img
+    if colorbar:
+        figure.colorbar(first_image)
     plt.show()
